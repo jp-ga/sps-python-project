@@ -1,0 +1,14 @@
+name: sps
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - scipy
+    - pandas
+    - scikit-image
+    - h5py
+    - jupyterlab
